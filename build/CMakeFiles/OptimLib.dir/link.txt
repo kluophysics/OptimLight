@@ -1,0 +1,2 @@
+/usr/bin/ar qc libOptimLib.a CMakeFiles/OptimLib.dir/src/optimizer.cpp.o
+/usr/bin/ranlib libOptimLib.a
