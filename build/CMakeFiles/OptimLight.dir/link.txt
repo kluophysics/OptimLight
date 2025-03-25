@@ -1,2 +1,0 @@
-/usr/bin/ar qc libOptimLight.a CMakeFiles/OptimLight.dir/src/optimizer.cpp.o
-/usr/bin/ranlib libOptimLight.a

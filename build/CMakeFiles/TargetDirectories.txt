@@ -1,3 +1,0 @@
-/home/kluo/repo/OptimLight/build/CMakeFiles/OptimLight.dir
-/home/kluo/repo/OptimLight/build/CMakeFiles/edit_cache.dir
-/home/kluo/repo/OptimLight/build/CMakeFiles/rebuild_cache.dir
