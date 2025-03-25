@@ -1,0 +1,11 @@
+OPTIMLIGHT was originally written/packaged by:
+
+Kai Luo <kluo@njust.edu.cn>
+
+with subsequent contributions by xxx and other contributors
+that can be found in the git history, summarized here:
+
+     https://github.com/kluophysics/OPTIMLIGHT/graphs/contributors
+
+See the subdirectories for the authors of the original nonlinear optimization
+libraries utilized by OPTIMLIGHT.
