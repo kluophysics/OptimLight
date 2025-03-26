@@ -12,9 +12,9 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 #==============================================================================
 # version
-set (OPTIMLIGHT_MAJOR_VERSION "2")
-set (OPTIMLIGHT_MINOR_VERSION "7")
-set (OPTIMLIGHT_BUGFIX_VERSION "1")
+set (OPTIMLIGHT_MAJOR_VERSION "0")
+set (OPTIMLIGHT_MINOR_VERSION "0")
+set (OPTIMLIGHT_BUGFIX_VERSION "0")
 set (OPTIMLIGHT_VERSION_STRING ${OPTIMLIGHT_MAJOR_VERSION}.${OPTIMLIGHT_MINOR_VERSION}.${OPTIMLIGHT_BUGFIX_VERSION})
 message (STATUS "OptimLight  version ${OPTIMLIGHT_VERSION_STRING}")
 
@@ -44,8 +44,8 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 # Add source files
 set (OPTIMLIGHT_SOURCES
-    src/types.hpp
-    src/optimlight.hpp
+    src/types.cpp
+    # src/optimlight.cpp
 )
 
 # Create the main library
