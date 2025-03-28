@@ -1,4 +1,4 @@
-#include "cg.h"
+#include "cg.hpp"
 #include <iostream>
 
 int main() {

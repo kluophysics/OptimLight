@@ -1,36 +1,35 @@
 #include "types.hpp"
 
+#include <iostream>
 #include <map>
 #include <string>
 
 namespace OptimLight
 {
-    std::string  algorithm_to_string(algorithm algorithm)
+    std::string  algorithm_to_string(const Algorithm & algorithm)
     {
         switch(algorithm)
         {
-            case ALGORITHM_SD: return "Steepest Descent";
-            case ALGORITHM_CG: return "Conjugate Gradient";
-            case ALGORITHM_BFGS: return "Broyden-Fletcher-Goldfarb-Shanno";
-            case ALGORITHM_LBFGS: return "Limited-memory BFGS";
-            case ALGORITHM_TNEWTON: return "Truncated Newton";
-            case ALGORITHM_NEWTON: return "Newton";
-            case ALGORITHM_TR: return "Trust Region";
-            case ALGORITHM_LENGTH: return "Unknown";
+            case Algorithm::ALGORITHM_SD: return "Steepest Descent";
+            case  Algorithm::ALGORITHM_CG: return "Conjugate Gradient";
+            case  Algorithm::ALGORITHM_BFGS: return "Broyden-Fletcher-Goldfarb-Shanno";
+            case  Algorithm::ALGORITHM_LBFGS: return "Limited-memory BFGS";
+            case  Algorithm::ALGORITHM_TNEWTON: return "Truncated Newton";
+            case  Algorithm::ALGORITHM_NEWTON: return "Newton";
+            case  Algorithm::ALGORITHM_TR: return "Trust Region";
         }
-        return NULL;
+        return "";
     }
-    algorithm algorithm_from_string(std::string & name)
+
+    Algorithm algorithm_from_string(std::string & name)
     {
-        int i;
-        if (name == "Unknown" )
-            return static_cast<algorithm>(-1);
-        for (i = 0; i < ALGORITHM_LENGTH; i++)
+        for (int i = 0; i <  sizeof(Algorithm); i++)
         {
-            if( name == algorithm_to_string( static_cast<algorithm>(i) ) ) 
-                return static_cast<algorithm>(i);
+            if( name == algorithm_to_string( static_cast<Algorithm>(i) ) ) 
+                return static_cast<Algorithm>(i);
         }
-        return static_cast<algorithm>(-1);
+        std::cout << "Algorithm name not found" << std::endl;
+        return Algorithm::ALGORITHM_SD;
     }
 
 

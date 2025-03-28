@@ -44,7 +44,14 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 # Add source files
 set (OPTIMLIGHT_SOURCES
-    src/types.cpp
+src/manifolds/array.cpp
+src/manifolds/manifold.cpp
+# src/manifolds/stacked_manifold.cpp
+src/manifolds/product_manifold.cpp
+
+src/manifolds/euclidean.cpp
+src/manifolds/stiefel.cpp
+    src/types.cpp src/problem.cpp
     # src/optimlight.cpp
 )
 

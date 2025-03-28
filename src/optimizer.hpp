@@ -1,17 +1,10 @@
 #ifndef OPTIMIZER_H
 #define OPTIMIZER_H
 
-#include "types.h"
+#include "types.hpp"
 
 namespace OptimLight
 {
-
-
-class OptimizerMethod
-{
-
-};
-
 
 class Optimizer
 {
@@ -19,12 +12,6 @@ class Optimizer
         Optimizer();
         ~Optimizer();
 
-        // void setMaxIter(int max_iter);
-        // void setTol(double tol);
-        // void setVerbose(bool verbose);
-        void setMethod(OptimizerMethod *method);
-
-        void optimize();
 
     private:
         int max_iter;
