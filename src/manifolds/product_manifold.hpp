@@ -1,5 +1,5 @@
-#ifndef PRODUCT_MANIFOLD_H
-#define PRODUCT_MANIFOLD_H
+#ifndef PRODUCT_MANIFOLD_HPP
+#define PRODUCT_MANIFOLD_HPP
 
 #include "manifold.hpp"
 #include <vector>
@@ -62,4 +62,4 @@ private:
 };
 
 } // namespace OptimLight
-#endif // PRODUCT_MANIFOLD_H
+#endif // PRODUCT_MANIFOLD_HPP

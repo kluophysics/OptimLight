@@ -1,5 +1,5 @@
-#ifndef OPTIMIZER_H
-#define OPTIMIZER_H
+#ifndef OPTIMIZER_HPP
+#define OPTIMIZER_HPP
 
 #include "types.hpp"
 
@@ -25,4 +25,4 @@ class Optimizer
 
 } // namespace OptimLight
 
-#endif // OPTIMIZER_H
+#endif // OPTIMIZER_HPP

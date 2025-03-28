@@ -1,5 +1,5 @@
-#ifndef ARRAY_H
-#define ARRAY_H
+#ifndef ARRAY_HPP
+#define ARRAY_HPP
 
 #include <complex>
 #include <memory>
@@ -122,4 +122,4 @@ private:
 };
 
 } // namespace OptimLight
-#endif // ARRAY_H
+#endif // ARRAY_HPP

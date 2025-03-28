@@ -1,5 +1,5 @@
-#ifndef MANIFOLD_H
-#define MANIFOLD_H
+#ifndef MANIFOLD_HPP
+#define MANIFOLD_HPP
 
 #include "array.hpp"
 #include <tuple>
@@ -44,4 +44,4 @@ namespace OptimLight
 
 } // namespace OptimLight
 
-#endif // MANIFOLD_H
+#endif // MANIFOLD_HPP

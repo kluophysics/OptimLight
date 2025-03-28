@@ -1,5 +1,5 @@
-#ifndef OPTIMLIGHT_HPP
-#define OPTIMLIGHT_HPP
+#ifndef OPTIMLIGHT_HPPPP
+#define OPTIMLIGHT_HPPPP
 
 namespace OptimLight
 {
@@ -10,4 +10,4 @@ namespace OptimLight
 
 }; // end namespace OptimLight
 
-#endif // OPTIMLIGHT_HPP
+#endif // OPTIMLIGHT_HPPPP

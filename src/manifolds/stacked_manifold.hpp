@@ -1,5 +1,5 @@
-#ifndef STACKED_MANIFOLD_H
-#define STACKED_MANIFOLD_H
+#ifndef STACKED_MANIFOLD_HPP
+#define STACKED_MANIFOLD_HPP
 
 #include "manifold.hpp"
 #include "array.hpp"
@@ -90,4 +90,4 @@ private:
 };
 
 } // namespace OptimLight
-#endif // STACKED_MANIFOLD_H
+#endif // STACKED_MANIFOLD_HPP

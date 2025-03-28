@@ -1,5 +1,5 @@
-#ifndef STIEFEL_H
-#define STIEFEL_H
+#ifndef STIEFEL_HPP
+#define STIEFEL_HPP
 
 #include "manifold.hpp"
 #include <complex>
@@ -126,4 +126,4 @@ namespace OptimLight
     };
 }
 
-#endif // STIEFEL_H
+#endif // STIEFEL_HPP

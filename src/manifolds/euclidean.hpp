@@ -1,5 +1,5 @@
-#ifndef EUCLIDEAN_H
-#define EUCLIDEAN_H
+#ifndef EUCLIDEAN_HPP
+#define EUCLIDEAN_HPP
 
 #include "manifold.hpp"
 
@@ -64,4 +64,4 @@ private:
 
 } // namespace OptimLight
 
-#endif // EUCLIDEAN_H
+#endif // EUCLIDEAN_HPP
